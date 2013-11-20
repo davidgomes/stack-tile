@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="24" tilewidth="25" tileheight="25">
+ <tileset firstgid="1" name="tileset" tilewidth="25" tileheight="25">
+  <image source="tileset.png" trans="ff00ff" width="250" height="250"/>
+  <tile id="0">
+   <properties>
+    <property name="color" value="red"/>
+    <property name="type" value="key"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="color" value="yellow"/>
+    <property name="type" value="key"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="color" value="blue"/>
+    <property name="type" value="key"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="color" value="green"/>
+    <property name="type" value="key"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="color" value="aqua"/>
+    <property name="type" value="key"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="color" value="red"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="color" value="yellow"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="color" value="blue"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="color" value="green"/>
+    <property name="type" value="door"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="type" value="wall"/>
+   </properties>
+  </tile>
+  <tile id="50">
+   <properties>
+    <property name="type" value="start"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="type" value="goal"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="map" width="26" height="24">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4A00aYFz2YANMaHK42MSaBxM3RhJjhNKiUJobiMWQ5OWxmGNCpD2E5KjhH3rEzygYBaNgFAwXAAA+8Qlm
+  </data>
+ </layer>
+</map>
